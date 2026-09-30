@@ -1,0 +1,210 @@
+(footprint "SMR_0603"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Chip resistor")
+	(tags "resistor 0603")
+	(property "Reference" "REF**"
+		(at 0.6 -1.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "20a79185-83e7-4f58-a3a6-3665089bbc09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at -1 -4.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "666cb9f4-c94b-47e2-bd18-7fe5390da19a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8195038d-52d6-498f-b97f-926adab6de46")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0083798-0c0d-48e9-ac79-e2fddd63c8b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 0.05 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "58f88cb3-0667-4e86-b21d-cec32efe3a5c")
+	)
+	(fp_line
+		(start -1.2 -0.6)
+		(end -1.2 0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "045e6e50-42a4-4f82-a2ea-6c0c63dc76fd")
+	)
+	(fp_line
+		(start -1.2 0.6)
+		(end 1.2 0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "29e8b45f-1da3-4204-967e-84f99e21962d")
+	)
+	(fp_line
+		(start 1.2 -0.6)
+		(end -1.2 -0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "34130c6b-1f55-4e0d-b3a6-0139821171b0")
+	)
+	(fp_line
+		(start 1.2 0.6)
+		(end 1.2 -0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d427e644-e09b-4c2d-8e2a-9112537f33f3")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "734b1649-9b30-44c1-a5de-e01c79c88629")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "649a25dc-f1e7-4db0-ab0d-aea5e64e18b2")
+	)
+	(fp_line
+		(start 0.8 -0.400898)
+		(end 0.8 0.399102)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5d9317ae-1e56-414f-9c6e-d5fba64aba04")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a1315434-fcc0-4a44-b569-10b493d239b0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.5 -3.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "21e8e7bf-14d3-47ec-acd6-e228d8917bf5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.7 0)
+		(size 0.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled no)
+			(allow_two_segments no)
+			(prefer_zone_connections yes)
+		)
+		(uuid "8a592a37-7095-4ae4-8d8c-c9a78631a32e")
+	)
+	(pad "2" smd rect
+		(at 0.7 0.010106)
+		(size 0.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.1)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled no)
+			(allow_two_segments no)
+			(prefer_zone_connections yes)
+		)
+		(uuid "d8583b13-9178-428f-9719-39f595ab71ca")
+	)
+	(embedded_fonts no)
+	(model "${MY_LIBS}/3D_Models/R_0603.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
